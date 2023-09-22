@@ -4,7 +4,7 @@ array = [None] * size
 
 x = 1
 for i in range(0, size):
-    array[i] = input("Enter the data on location {}: ".format(x))
+    array[i] = input("Enter the data for location {}: ".format(x))
     x += 1
 
 # choice for sorting
